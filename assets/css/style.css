@@ -59,7 +59,8 @@ nav {
   flex-wrap: wrap;
 }
 
-nav a {
+nav li {
+  display: inline;
   text-decoration: none;
   padding: 5px 10px;
   color: var(--secondary);
