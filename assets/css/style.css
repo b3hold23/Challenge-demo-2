@@ -186,6 +186,7 @@ main {
 .flex-item div {
   background-color: var(--secondary);
   padding: 8px 10px;
+  font-size: 1.6rem;
 }
 
 .flex-item h3 {
