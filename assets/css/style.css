@@ -221,8 +221,17 @@ main {
   color: var(--secondary);
 }
 
-/* portfolio project images */
-/* TODO: Add portfolio project images here*/
+@media (max-width: 980px) {
+ .flex-container {
+  flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+   flex-wrap: wrap;
+  }
+ }
 
 /* media queries */
 

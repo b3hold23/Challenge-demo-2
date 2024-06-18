@@ -14,9 +14,18 @@
     </h1>
     <nav>
         <ul>
-            <li a :hover href="#about-me" class="section-page">About Me</li>
-            <li a :hover href="#">Portfolio</li>
-            <li a :hover href="#">Contact Me</li>
+            <li>
+            <a href="#AM" :hover>About Me</a>
+            </li>
+
+            <li>
+                <a href="#Port" :hover>Portfolio</a>
+            </li>
+
+            <li>
+                <a href="#cont" :last-child>Contact Me</a>
+            </li>
+
         </ul>
     </nav>
 </header>
@@ -28,33 +37,43 @@
     </section>
 <main>
     <section class="page-section">
-        <h2>About Me</h2>
+        <h2 id="AM">About Me</h2>
             <div>Energetic and optimistic customer service representative with over 5 years of professional experience assisting customers in solving complex issues. Angel is a hard worker and always willing to learn a new ability he can grow on. Eager to bring these skills and help in building customer loyalty by leveraging interpersonal skills and offering top customer service. 
                 <br><br> In previous roles maintained email and call queues to a new all time low and Piloted a new email communication service</div>
     </section>
 
     <section class="page-section">
-        <h2>TEST</h2>
+        <h2 id="Port">My Work</h2>
             <div class="flex-container">
 
                 <div class="flex-item" :first-child>
+                <a href="https://b3hold23.github.io/mini-project1/">
                     <div>Project 1</div>
+                </a>
                 </div>
 
                 <div class="flex-item">
+                <a href="https://b3hold23.github.io/Horiseon-dev/">
                     <div>Challenge 1</div>
+                </a>
                 </div>
 
                 <div class="flex-item">
-                    <div>Project 2</div>
-                </div>
-
-                <div class="flex-item">
+                <a href="https://b3hold23.github.io/Prework-study-guide/">
                     <div>Pre Work</div>
+                </a>
                 </div>
 
                 <div class="flex-item">
+                <a href="#">
                     <div>Place Holder</div>
+                </a>
+                </div>
+
+                <div class="flex-item">
+                <a href="#">
+                    <div>Place Holder</div>
+                </a>
                 </div>
 
             </div>
@@ -62,7 +81,7 @@
 </main>
 
 <footer class="page-section">
-    <h2>Contact Me</h2>
+    <h2 id="cont">Contact Me</h2>
         <div class="contact">
             <address>
                 <a :hover>801-574-5837</a>
