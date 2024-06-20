@@ -156,6 +156,8 @@ main {
 }
 
 .flex-item {
+  position: relative;
+  overflow: hidden;
   border: 5px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
@@ -173,6 +175,16 @@ main {
   font-size: 0.9rem;
 }
 
+.flex-item img {
+  position: absolute;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 /* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
@@ -184,6 +196,8 @@ main {
 }
 
 .flex-item div {
+  z-index: 1;
+  position: relative;
   background-color: var(--secondary);
   padding: 8px 10px;
   font-size: 1.6rem;
