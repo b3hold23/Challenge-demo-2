@@ -1,7 +1,9 @@
  # Challenge 2
 
  ## Description
- <!-- <Place deploed site here> -->
+ 
+ https://b3hold23.github.io/Challenge-demo-2/
+
  This is my first portfolio. This site contains other projects I have created or worked on.
 
  ## Features
